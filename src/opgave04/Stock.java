@@ -11,6 +11,10 @@ public class Stock {
         this.currentPrice = c;
     }
 
+    Stock(){
+        new Stock("0",0,0);
+    }
+
 
     public double getChangedProcent(){
 

@@ -14,7 +14,7 @@ public class Timetable {
     }
 
     private static Departure[] getDepartures() {
-        Departure[] departures = new Departure[10];
+        Departure[] departures = new Departure[8];
         departures[0] = new Departure(1, "København H", "07:57", "08:04");
         departures[1] = new Departure(2, "Aalborg", "08:03", "08:10");
         departures[2] = new Departure(1, "København H", "08:32", "08:40");

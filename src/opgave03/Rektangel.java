@@ -5,8 +5,7 @@ public class Rektangel {
     private double height;
 
     public Rektangel(){
-        this.width = 1;
-        this.height = 1;
+        new Rektangel(1,1);
     }
 
     public Rektangel(double width, double height){
